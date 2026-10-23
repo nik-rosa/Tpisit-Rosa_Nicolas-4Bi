@@ -9,6 +9,8 @@ ng generate component header
 
 ng generate component footer
 
+ng g c home --> ng generate component home, crea cartella home
+
 
 
 Se codspace non va:
