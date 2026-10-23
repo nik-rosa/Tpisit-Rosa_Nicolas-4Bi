@@ -1,0 +1,36 @@
+{
+  "name": "TPSIT 4Bi - Angular 22",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22-bookworm",
+  "postCreateCommand": "npm install -g @angular/cli@22",
+  "waitFor": "postCreateCommand",
+  "forwardPorts": [4200, 3000],
+  "portsAttributes": {
+    "4200": {
+      "label": "Applicazione Angular",
+      "onAutoForward": "notify"
+    },
+    "3000": {
+      "label": "Servizio dati json-server",
+      "onAutoForward": "notify"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Angular.ng-template",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "eamodio.gitlens"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2,
+        "files.eol": "\n",
+        "files.insertFinalNewline": true,
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+  "remoteUser": "node"
+}
