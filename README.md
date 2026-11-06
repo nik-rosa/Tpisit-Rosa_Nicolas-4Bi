@@ -1,5 +1,12 @@
 # Tpisit-Rosa_Nicolas-4Bi
 
+login worlspace:
+    coder@tpisit-4Bi:~/project$ git config --global user.mail "nicolas.rosa@marconirovereto.it"
+    coder@tpisit-4Bi:~/project$ git config --global user.name "nik-rosa"
+    coder@tpisit-4Bi:~/project$ git config --global pull.rebase false
+    coder@tpisit-4Bi:~/project$ git config --global credential.helper store
+    coder@tpisit-4Bi:~/project$ git clone https://github.com/nik-rosa/Tpisit-Rosa_Nicolas-4Bi.git
+
 
 npm install --> ricrea cartella node_modules
 
