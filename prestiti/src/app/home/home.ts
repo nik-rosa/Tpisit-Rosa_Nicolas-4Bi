@@ -20,4 +20,6 @@ export class Home {
     stato: 'manutenzione',
     tipo: 'notebook',
   };
+
+  private dispositivo2: Dispositivo = new Dispositivo(1, 'PC', 'notebbok', 'HP', 'NB17', 2026, 'manutenzione');
 }
