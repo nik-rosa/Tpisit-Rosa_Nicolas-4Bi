@@ -7,3 +7,4 @@ export class Dispositivo {
     anno: number;
     stato: 'disponibile' | 'in prestito' | 'manutenzione';
 }
+ 
